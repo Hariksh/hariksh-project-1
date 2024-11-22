@@ -1,100 +1,127 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hariksh Mahendra Suryawanshi - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f7f7f7; /* Light Gray Background */
-            color: #2c3e50; /* Dark Gray Text */
-        }
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-        div {
-            padding: 20px;
-            text-align: center;
-        }
-
-        #header {
-            background-color: #34495e; /* Dark Blue */
-            color: white;
-            padding: 50px 0;
-        }
-
-        #header h1 {
-            font-size: 40px;
-            margin: 0;
-        }
-
-        #header p {
-            font-size: 22px;
-            margin-top: 5px;
-        }
-
-        #intro {
-            background-color: #1abc9c; /* Turquoise */
-            color: white;
-            padding: 40px;
-        }
-
-        #intro h2 {
-            font-size: 34px;
-            margin-bottom: 15px;
-        }
-
-        #intro p {
-            font-size: 18px;
-        }
-
-        #hobbies {
-            background-color: #e74c3c; /* Red */
-            color: white;
-            padding: 40px;
-        }
-
-        #hobbies h2 {
-            font-size: 32px;
-            margin-bottom: 20px;
-        }
-
-        #hobbies p {
-            font-size: 18px;
-        }
-
-        #contact {
-            background-color: #f39c12; /* Orange */
-            color: white;
-            padding: 40px;
-        }
-
-        #contact h2 {
-            font-size: 30px;
-            margin-bottom: 15px;
-        }
-
-        #contact p {
-            font-size: 18px;
-        }
-
-        #footer {
-            background-color: #2c3e50; /* Dark Gray */
-            color: #bdc3c7; /* Light Gray Text */
-            padding: 15px;
-        }
-
-        #footer p {
-            margin: 0;
-            font-size: 14px;
-        }
-
-        a {
-            color: #ecf0f1;
-            text-decoration: none;
-        }
-    </style>
+  html {
+    font-size:20px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background: #6c5ce7;
+    color: white;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* Sections */
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    color: #2d3436;
+  }
+  
+  /* Flexbox Container */
+  .flex-container {
+    
+    border: 2px dashed #ccc;
+    padding: 10px;
+    margin: 20px 0;
+  
+  }
+  
+  /* Flexbox Items */
+  .box {
+    background: #74b9ff;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Section Specific Styles */
+  .display-flex .flex-container {
+    /* Students can experiment here */
+    
+  }
+  
+  .flex-direction .flex-container {
+   }
+  
+  .justify-content .flex-container {
+   }
+  
+  .align-items .flex-container {
+   }
+  
+  .flex-wrap .flex-container {
+   }
+  
+  /* CSS Units Section */
+  .unit-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .unit-box {
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .vh-box {
+    background-color: #55efc4;
+  
+  }
+  
+  .vw-box {
+    background-color: #fab1a0;
+  
+  }
+  
+  .percent-box {
+    background-color: #ffeaa7;
+   
+  }
+  
+  .em-box {
+    background-color: #81ecec;
+   
+  }
+  
+  .rem-box {
+    background-color: #74b9ff;
+    
+  }
+  
+  .px-box {
+    background-color: #d63031;
+    
+  }
+  
 </head>
 <body>
 
