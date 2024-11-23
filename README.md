@@ -122,34 +122,89 @@
     
   }
   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexie's Adventure in CSS Land</title>
+    <link rel="stylesheet" href="boil.css">
 </head>
 <body>
+    <header>
+        <h1>Welcome to Flexie's Adventure</h1>
+        <p>Follow along and help Flexie master Flexbox and CSS units!</p>
+    </header>
 
-    <div id="header">
-        <h1>Hariksh Mahendra Suryawanshi</h1>
-        <p>B.Tech in Computer Science</p>
-        <p>Newton School of Technology</p>
-    </div>
+    <main>
+        <!-- Section 1: Display Flex -->
+        <section class="section display-flex">
+            <h2>1. Entering the Land of Flexbox</h2>
+            <div class="flex-container">
+                <div class="box">Box 1</div>
+                <div class="box">Box 2</div>
+                <div class="box">Box 3</div>
+            </div>
+        </section>
 
-    <div id="intro">
-        <h2>About Me</h2>
-        <img src="hariksh.jpeg" width="150px" height="150px"  alt="Hariksh Suryawanshi" class="profile-img">
-        <p>I’m Hariksh, a passionate computer science student pursuing a B.Tech at Newton School of Technology. I enjoy solving coding problems and learning new technologies to improve my skills.</p>
-    </div>
+        <!-- Section 2: Flex Direction -->
+        <section class="section flex-direction">
+            <h2>2. Choosing Directions</h2>
+            <div class="flex-container">
+                <div class="box">Direction 1</div>
+                <div class="box">Direction 2</div>
+                <div class="box">Direction 3</div>
+            </div>
+        </section>
 
-    <div id="hobbies">
-        <h2>Hobbies</h2>
-        <p>When I’m not coding, I love watching cricket, listening to music, and tackling coding challenges. These keep me motivated and help me unwind after a busy day.</p>
-    </div>
+        <!-- Section 3: Justify Content -->
+        <section class="section justify-content">
+            <h2>3. The Six Paths of Justification</h2>
+            <div class="flex-container">
+                <div class="box">Path 1</div>
+                <div class="box">Path 2</div>
+                <div class="box">Path 3</div>
+            </div>
+        </section>
 
-    <div id="contact">
-        <h2>Contact</h2>
-        <p>If you want to connect with me, feel free to reach out on LinkedIn</p>
-    </div>
+        <!-- Section 4: Align Items -->
+        <section class="section align-items">
+            <h2>4. Aligning in Style</h2>
+            <div class="flex-container">
+                <div class="box">Align 1</div>
+                <div class="box">Align 2</div>
+                <div class="box">Align 3</div>
+            </div>
+        </section>
 
-    <div id="footer">
-        <p> Hariksh Mahendra Suryawanshi</p>
-    </div>
+        <!-- Section 5: Flex Wrap -->
+        <section class="section flex-wrap">
+            <h2>5. The Flex-Wrap Festival</h2>
+            <div class="flex-container">
+                <div class="box">Wrap 1</div>
+                <div class="box">Wrap 2</div>
+                <div class="box">Wrap 3</div>
+                <div class="box">Wrap 4</div>
+                <div class="box">Wrap 5</div>
+            </div>
+        </section>
 
+        <!-- Section 6: CSS Units -->
+        <section class="section css-units">
+            <h2>6. Exploring Unitopia</h2>
+            <div class="unit-container">
+                <div class="unit-box vh-box">VH</div>
+                <div class="unit-box vw-box">VW</div>
+                <div class="unit-box percent-box">%</div>
+                <div class="unit-box em-box">EM</div>
+                <div class="unit-box rem-box">REM</div>
+                <div class="unit-box px-box">PX</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created with ❤️ by Your Name</p>
+    </footer>
 </body>
 </html>
