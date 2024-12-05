@@ -3,13 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snow's website</title>
+    <title>Profile Cards</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+        .card-img-top {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 20px auto;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #007bff;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1 style="color: rgb(16, 167, 218)"> Welcome to snow's world</h1>
-    <h2 style="background-color: yellow">welcome to snow world</h2>
-    <h1 style="color: red; background-color: yellow"> Welcome to snow's world</h1>
-    <p style="font-size: 60px; font-weight: bold;"> this is a long paragraph about snow. snow is a very good cat</p>
-    
+
+<div class="container mt-5">
+    <div class="row">
+        <!-- Profile Card 1 -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="https://www.google.com/imgres?q=user%20profile&imgurl=https%3A%2F%2Fpng.pngtree.com%2Fpng-clipart%2F20231019%2Foriginal%2Fpngtree-user-profile-avatar-png-image_13369988.png&imgrefurl=https%3A%2F%2Fpngtree.com%2Ffreepng%2Fuser-profile-avatar_13369988.html&docid=OjxoOX7Yh3iqpM&tbnid=tBKe_5_P-VFNcM&vet=12ahUKEwiQjcnt9IqKAxX6UGcHHe2BLgYQM3oECB8QAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwiQjcnt9IqKAxX6UGcHHe2BLgYQM3oECB8QAA" alt="Person 1">
+                <div class="card-body">
+                    <h5 class="card-title">Aditya Prakash</h5>
+                    <p class="card-text">Web Developer with a passion for creating interactive applications.</p>
+                    <div class="social-icons">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-linkedin-in"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Card 2 -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="kapil image.jpeg" class="card-img-top" alt="Person 2">
+                <div class="card-body">
+                    <h5 class="card-title">Hariksh Mahendra Suryawanshi</h5>
+                    <p class="card-text">Graphic Designer specializing in creating stunning visuals and branding.</p>
+                    <div class="social-icons">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-linkedin-in"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Card 3 -->
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="https://via.placeholder.com/150" class="card-img-top" alt="Person 3">
+                <div class="card-body">
+                    <h5 class="card-title">Mike Johnson</h5>
+                    <p class="card-text">Data Scientist with expertise in machine learning and AI.</p>
+                    <div class="social-icons">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-linkedin-in"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Font Awesome for social icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
